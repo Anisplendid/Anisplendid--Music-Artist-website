@@ -41,7 +41,7 @@
 
     <style>
       .para1{
-            font-size: 21PX; justify-content: center; align-items: center; display: block;  border: 1px solid #d3d3d3; border-radius: 6px; padding: 30px; margin-bottom: 80px;
+            font-size: 21PX; justify-content: center; align-items: center; display: block;  border: 1px solid white; border-radius: 6px; padding: 30px; margin-bottom: 80px;
         }
     </style>
 </head>
@@ -129,17 +129,22 @@
                <a class="btn btn-outline-success" href="mailto:anisplendidprogramming@outlook.com">SEND EMAIL MASSAGES</a>
               </li>
             </ul>
-            
+             
+            <!-- search input -->
             <form class="d-flex" role="search">
-              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" id="searchInput" onkeyup="performSearch()">
               <button class="btn btn-outline-success" type="submit">Search</button>
             </form>
+
           </div>
         </div>
       </nav>
     </header>
+    
 </head>
 <body>
+ 
+
     <div class="container" >
     <h1  class="gradient-background" style="font-size: 104PX; justify-content: center; align-items: center; display: flex; margin-top: 30px; ">ABOUT</h1>
     <div class="para1">

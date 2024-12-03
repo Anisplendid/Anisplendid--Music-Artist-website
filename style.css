@@ -122,6 +122,9 @@ html, body{
         
       }
 
+/* Basic styling for search results */
+.result { margin-bottom: 10px; }
+      
 #myCarousel {
     width: 100%; /* Default width for larger screens */
     margin: 0 auto; /* Center the carousel */

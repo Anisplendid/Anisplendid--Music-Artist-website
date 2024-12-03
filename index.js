@@ -32,10 +32,6 @@
           }
         });
 
-// Select the toggle button
-const themeToggle = document.getElementById('theme-toggle');
 
-// Add event listener to toggle button
-themeToggle.addEventListener('click', () => {
-  document.body.classList.toggle('dark-theme');
-});
+
+
